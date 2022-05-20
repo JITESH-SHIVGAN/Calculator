@@ -1,5 +1,5 @@
 # Calculator
-Link to the Project Calculator: https://JITESH-SHIVGAN.github.io/Calculator
+Link to the Project Calculator: https://jiteshshivgan.github.io/Calculator
 <br>
 A basic calculator which can do arithmatic calculations. 
 <br>
