@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Calculator </title>
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" type="text/css" href="Calculator.css" />
+  
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
+
+</head>
+<body>
+    <div id="calculator-container">
+    <div id="heading">Calculator</div>
+    <div id="output-container"><p id="output"></p></div>
+    <div id="calculator-buttons">
+        
+        <button type="text" onclick="numeric('AC')">All Clear</button>
+        <button type="text">+/-</button>
+        <button type="text" onclick="numeric('%')">%</button>
+        <button type="text" class="operators" onclick="numeric('/')">/</button>
+        <button type="text" onclick="numeric(7)">7</button>
+        <button type="text" onclick="numeric(8)">8</button>
+        <button type="text" onclick="numeric(9)">9</button>
+        <button type="text" class="operators" onclick="numeric('*')">*</button>
+        <button type="text" onclick="numeric(4)">4</button>
+        <button type="text" onclick="numeric(5)">5</button>
+        <button type="text" onclick="numeric(6)">6</button>
+        <button type="text" class="operators" onclick="numeric('-')">-</button>
+        <button type="text" onclick="numeric(1)">1</button>
+        <button type="text" onclick="numeric(2)">2</button>
+        <button type="text" onclick="numeric(3)">3</button>
+        <button type="text" class="operators" onclick="numeric('+')">+</button>
+        <span id="zero"><button type="text" >0</button></span>
+        <button type="text" onclick="numeric('.')">.</button>
+        <button type="text" class="operators" onclick="numeric('=')">=</button>
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
